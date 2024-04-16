@@ -225,6 +225,12 @@ h2 {
   font-size: 2em;
   line-height: 32px;
   font-size: var(--fs_h2);
+  -webkit-display: block;
+  display: block;
+  border-bottom: 3px solid var(--secondary-color);
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: 8px;
 }
 h3 {
   font-size: var(--fs_h3);
@@ -278,10 +284,6 @@ p {
 img {
   max-width: 100%;
 }
-h3 {
-  line-height: 20.4px;
-  color: var(--clr_brown);
-}
 a {
   font-size: $a;
 }
@@ -332,8 +334,8 @@ address {
   -webkit-display: inline-block;
   display: inline-block;
 }
-#skills>.row>.ph>img {
-  max-width: 80px;
+#skills .row .ph>img {
+  max-width: 67px;
 }
 @media screen and (max-width: 1060px) {
   .container {
