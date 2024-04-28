@@ -334,8 +334,12 @@ address {
   -webkit-display: inline-block;
   display: inline-block;
 }
-#skills .row .ph>img {
-  max-width: 67px;
+.home-content .social {
+  -webkit-display: flex;
+  display: flex;
+}
+.home-content> img {
+  width: 300px;
 }
 @media screen and (max-width: 1060px) {
   .container {
